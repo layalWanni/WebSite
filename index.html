@@ -23,14 +23,14 @@
             <span>fechar</span>
         </div>
 
-        <header>
+        <header id="home">
             <div class="img-wrapper">
                 <img src="./Imagens/background.jpg" alt="Background">
             </div>
             <div class="banner">
                 <h1>Sistema para Lojas</h1>
                 <p>Programa para Lojas e Comércio simples e fácil de usar,<br />deixando seu estabelecimento mais funcional e organizado.</p>
-                <button><strong>Saiba mais</strong></button>
+                <a href="#"><button><strong>SAIBA MAIS</strong></button></a>
             </div>
 
         </header>
@@ -38,8 +38,8 @@
         <aside class="sidebar">
             <nav>
                 <ul class="menu">
-                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Funcionalidades</a></li>
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#funcionalidades" class="menu-link">Funcionalidades</a></li>
                     <li class="menu-item"><a href="#" class="menu-link">Planos</a></li>
                     <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
                 </ul>
@@ -50,7 +50,7 @@
             </div>
         </aside>
 
-        <section class="sessao-funcionalidades">
+        <section class="sessao-funcionalidades" id="funcionalidades">
             <div class="sessao-header">
                 <h1>Funcionalidades do Sistema</h1>
             </div>
@@ -110,7 +110,7 @@
                     <div class="card-info">
                         <h3>CAIXA</h3>
                         <p>Facilitar manuseio do caixa, otimizando o tempo das funções, do processo de abertura e fechamento de caixa, controle de entrada de dinheiro.</p>
-                        <button class="btn"><strong>SAIBA MAIS</strong></button>
+                        <a href="#"><button class="btn"><strong>SAIBA MAIS</strong></button></a>
                     </div>
                 </div>
                 <div class="card">
@@ -121,7 +121,7 @@
                         <h3>VENDAS</h3>
                         <p>Oferece um PDV (Ponto de venda) ágil no momento da venda que é fácil de usar e está integrado a diversos equipamentos como impressoras, leitor de código de barras e gaveta de dinheiro.
                         </p>
-                        <button class="btn"><strong>SAIBA MAIS</strong></button>
+                        <a href="#"><button class="btn"><strong>SAIBA MAIS</strong></button></a>
                     </div>
                 </div>
 
@@ -133,7 +133,7 @@
                         <h3>RH</h3>
                         <p>Facilitar o controle dos funcionários e deixar de uma forma mais organizada e sistemática.
                         </p>
-                        <button class="btn"><strong>SAIBA MAIS</strong></button>
+                        <a href="#"><button class="btn"><strong>SAIBA MAIS</strong></button></a>
                     </div>
                 </div>
 
@@ -144,17 +144,17 @@
                     <div class="card-info">
                         <h3>ESTOQUE</h3>
                         <p>Melhorar o desempenho da loja pois haverá mais controle sobre os produtos que serão colocados e vendidos no estabelecimento.</p>
-                        <button class="btn"><strong>SAIBA MAIS</strong></button>
+                        <a href="#"><button class="btn"><strong>SAIBA MAIS</strong></button></a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <section class="sessao-contato" id="contato">
-            <div class="contato-wrapper">
-                <div class="contato-left"></div>
-                <div class="contato-right">
-                    <h1>Contato</h1>
+        <section class="sessao-mensagem" id="mensagem">
+            <div class="mensagem-wrapper">
+                <div class="mensagem-left"></div>
+                <div class="mensagem-right">
+                    <h1>Mande sua Dúvida</h1>
                     <form>
                         <div class="input-group">
                             <input type="text" class="field" id="nome" required>
@@ -169,14 +169,62 @@
                             <label for="mensagem" class="field-label">Digite sua Mensagem</label>
                         </div>
                         <button type="submit" class="btn btn-submit"><strong>ENVIAR</strong></button>
+
                     </form>
                 </div>
             </div>
         </section>
 
-        <section class="sessao-orcamento">
+        <footer>
+            <div class="wrapper">
+                <div class="footer-box">
+                    <div class="company-footer">
+                        <img src="./Imagens/logoOriginal.png" width="200">
+                        <h2>Sistema ERP</h2>
+                        <p>Programa para Lojas e Comércio simples e fácil de usar, deixando seu estabelecimento mais funcional e organizado.</p>
+                    </div>
+                </div>
 
-        </section>
+                <div class="footer-box">
+                    <div class="opcoes-footer">
+                        <h2>Sobre o Programa</h2>
+                        <ul class="footer-list footer-opcoes-list">
+                            <li><a href="#">Por que adquirir esse sistema ERP?</a></li>
+                            <li><a href="#funcionalidades">Funcionalides de cada modulo do sistema.</a></li>
+                            <li><a href="#">Sobre o modulo Caixa.</a></li>
+                            <li><a href="#">Sobre o modulo Vendas.</a></li>
+                            <li><a href="#">Sobre o modulo RH.</a></li>
+                            <li><a href="#">Sobre o modulo Estoque.</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-box">
+                    <h2>Entre em contato com nossa empresa</h2>
+                    <ul class="footer-list">
+                        <li><a href="https://api.whatsapp.com/send?phone=554598383259" target="_blank"><i
+                                    class="fab fa-whatsapp"></i></a></li>
+
+                        <li><a href="#">Nossos e-mails</a></li>
+                        <li><a href="#mensagem">Mande suas dúvidas</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <div class="wrapper">
+                    <p>
+                        Copyright &copy; 2021, UNI SYSTEMS - Todos os direitos reservados
+                    </p>
+                </div>
+            </div>
+
+        </footer>
+
+        <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i>
+        </a>
 
     </div>
 </body>
