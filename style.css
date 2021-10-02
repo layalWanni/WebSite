@@ -277,10 +277,12 @@ header {
     margin-top: 5%;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-size: 2.7rem;
-    color: rgb(36, 53, 70);
+    /*color: rgb(36, 53, 70);*/
+    color: black;
     border-radius: 3px;
-    background-color: #36D1DC;
-    opacity: 0.8;
+    background: #36D1DC;
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
+    background: linear-gradient(to right, #5B86E5, #36D1DC);
 }
 
 #funcionalidades h1 {
@@ -719,7 +721,8 @@ footer ul {
     box-shadow: 0 0.1rem 0.6rem #00000009;
 }
 
-.container1{
+
+/* .container1{
     position: relative;
     top: 130px;
     display: flex;
@@ -785,4 +788,94 @@ footer ul {
 ol{
     height: 40px;
     width: 400px
+} */
+
+.sessao-planos {
+    margin-bottom: 85px;
+}
+
+.planos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.card-planos {
+    margin-top: 5%;
+    width: 18rem;
+    height: 35rem;
+    position: relative;
+}
+
+.card-planos-img-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 0.5rem;
+}
+
+.card-planos-img-wrapper img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    opacity: 0.8;
+    margin-bottom: 10%;
+    transition: opacity 0.3s;
+}
+
+.card-planos:hover .card-planos-img-wrapper img {
+    opacity: 0.3;
+}
+
+.card-planos-info {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
+    transition: all 0.3s;
+    right: auto;
+    left: 13px;
+}
+
+.card-planos-info h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.card-planos-info li {
+    margin-bottom: 15px;
+}
+
+.card-planos-info ul {
+    text-align: center;
+}
+
+.card-planos-info button {
+    width: 8rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.card-planos-info button:hover {
+    color: white;
+}
+
+.card-planos:hover .card-planos-info {
+    bottom: 2.3rem;
+    opacity: 1;
+    visibility: visible;
+}
+
+.obs-planos {
+    text-align: center;
+    margin-left: 122px;
+    width: 1104px;
+    color: grey;
 }
