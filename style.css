@@ -718,3 +718,56 @@ footer ul {
     border-radius: .3rem;
     box-shadow: 0 0.1rem 0.6rem #00000009;
 }
+
+.container1{
+    width: 800px;
+    height: 400px;
+
+}
+.objetos .texto{
+	top:-8px;
+	left:230px;
+}
+
+.objetos .titulo{
+	position:relative;
+	top:-10px;
+	left:145px;
+}
+
+
+
+.titulo{
+    .objetos .texto{
+	top:-8px;
+	left:230px;
+}
+
+.objetos .titulo{
+	position:relative;
+	top:10px;
+	left:145px;
+}
+
+
+.texto{
+    top:-8px; 
+    left:230px; 
+    text-align: center;
+}
+.objetos p{
+	height:38px;
+	top:0px;
+	left:139px;
+	position:relative;
+}
+
+.objetos{
+    top:-8px; 
+    left:230px; 
+    align-items:center;
+    display: flex;
+    width: 980px;
+    height: 400px;
+
+}
