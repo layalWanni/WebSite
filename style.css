@@ -750,6 +750,11 @@ footer ul {
 }
 
 
+    width: 400px;
+    height: px;
+    text-align: center;
+}
+
 .texto{
     top:-8px; 
     left:230px; 
@@ -765,7 +770,7 @@ footer ul {
 .objetos{
     top:-8px; 
     left:230px; 
-    align-items:center;
+    align-items: center;
     display: flex;
     width: 980px;
     height: 400px;
