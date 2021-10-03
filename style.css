@@ -14,10 +14,9 @@
     text-decoration: none;
 }
 
-
-/* body {
+body {
     overflow-x: hidden;
-} */
+}
 
 html {
     scroll-behavior: smooth;
