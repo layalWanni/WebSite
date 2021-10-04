@@ -864,10 +864,11 @@ footer ul {
 }
 
 
-/*Começo do caixa.html*/
+/*Começo do caixa - rh - estoque - venda.html*/
 
 .sessao04 {
-    margin-bottom: 30px;
+    background-color: rgba(243, 239, 233, 0.671);
+   
 }
 
 .objetivo p {
@@ -903,13 +904,14 @@ footer ul {
     right: auto;
     left: 98px;
     top: 38px;
+    margin-left: 20px;
 }
 
 .objetivo .fa-check-circle {
     color: #3885bc;
     position: relative;
     top: 5px;
-    left: 23px;
+    left: 16px;
     font-size: 80px;
 }
 
@@ -920,9 +922,10 @@ footer ul {
     width: 573px;
     right: auto;
     left: 698px;
-    margin-top: 3px;
+    margin-top: 3spx;
     height: 205px;
     top: -173px;
+    margin-left: 100px;
 }
 
 .solucao p {
@@ -972,17 +975,22 @@ footer ul {
 }
 
 .funcionalidade-modulo li {
+    background-color: #c0bcbcd5;
     list-style: square;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-shadow: none;
     width: 514px;
-    text-align: justify;
+    text-align: center;
     position: relative;
-    padding-bottom: 40px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     top: 0px;
     left: 0px;
-    bottom: auto;
+    border-radius: 60px;
+    list-style-type: none;
+    border-style:hidden;
+    box-shadow: 0px 0px 30px 0px #66aedf;
 }
 
 .funcionalidade-modulo ul {
@@ -990,8 +998,9 @@ footer ul {
     width: 525px;
     top: -190px;
     left: 678px;
-    border-style: hidden;
+    border-style:hidden;
     bottom: auto;
+    margin-left: 100px;
 }
 
 .funcionalidade-modulo img {
@@ -999,6 +1008,8 @@ footer ul {
     position: relative;
     bottom: auto;
     left: 15px;
-    top: 35px;
-    box-shadow: 0px 0px 6px 0px #000000;
+    top: 80px;
+    box-shadow: 0px 0px 10px 0px #66aedf;
+    border-radius: 30px;
 }
+
