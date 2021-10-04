@@ -1000,7 +1000,7 @@ footer ul {
     left: 678px;
     border-style:hidden;
     bottom: auto;
-    margin-left: 100px;
+    margin-left: 120px;
 }
 
 .funcionalidade-modulo img {
@@ -1011,5 +1011,6 @@ footer ul {
     top: 80px;
     box-shadow: 0px 0px 10px 0px #66aedf;
     border-radius: 30px;
+    margin-left: 35px;
 }
 
