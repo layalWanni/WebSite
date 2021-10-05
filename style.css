@@ -667,6 +667,9 @@ header {
     color: white;
 }
 
+
+/*footer*/
+
 footer {
     background-color: rgba(24, 23, 23, 0.932);
     padding-bottom: 40px;
@@ -868,7 +871,6 @@ footer ul {
 
 .sessao04 {
     background-color: rgba(243, 239, 233, 0.671);
-   
 }
 
 .objetivo p {
@@ -904,7 +906,6 @@ footer ul {
     right: auto;
     left: 98px;
     top: 38px;
-    margin-left: 20px;
 }
 
 .objetivo .fa-check-circle {
@@ -925,7 +926,7 @@ footer ul {
     margin-top: 3spx;
     height: 205px;
     top: -173px;
-    margin-left: 100px;
+    margin-left: 55px;
 }
 
 .solucao p {
@@ -987,13 +988,13 @@ footer ul {
     padding-bottom: 12px;
     top: 0px;
     left: 0px;
-    border-width:5px;
+    border-width: 5px;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 90px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 90px;
     list-style-type: none;
-    border-style:groove;
+    border-style: groove;
     box-shadow: 0px 0px 10px 0px #66aedf;
 }
 
@@ -1002,7 +1003,7 @@ footer ul {
     width: 525px;
     top: -240px;
     left: 678px;
-    border-style:hidden;
+    border-style: hidden;
     bottom: auto;
     margin-left: 120px;
 }
@@ -1018,3 +1019,26 @@ footer ul {
     margin-left: 35px;
 }
 
+.contatos {
+    margin-bottom: 10%;
+}
+
+.contato li {
+    margin-top: 4%;
+    position: relative;
+    left: 300px;
+    margin-right: 20px;
+    align-items: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contato i {
+    font-size: 1.8rem;
+    margin-top: 4px;
+}
+
+.contato p {
+    font-size: 1.8rem;
+    font-family: "Roboto";
+}
